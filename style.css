@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.card-main-box {
+  margin: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card-main-box {
+  display: flex;
+}
+.content-sec {
+  max-width: 680px;
+  min-width: 300px;
+  padding: 30px 40px;
+  color: gray;
+  width: 100%;
+}
+.content-sec h3 {
+  padding: 10px 0;
+}
+.content-sec p {
+  padding: 10px 0;
+}
+.icon {
+  display: flex;
+}
+.icon i {
+  margin-right: 10px;
+  margin-top: 12px;
+}
+.end-sec {
+  padding: 30px 40px 0 40px;
+  border-left: 1px outset;
+}
+.end-sec-logo {
+  display: flex;
+}
+.end-sec-logo img {
+  margin: 0 20px 0 0;
+}
+.status {
+  padding: 20px 0;
+}
+.status p {
+  padding: 8px 0;
+}
+.exist {
+  color: red;
+  font-weight: 700;
+}
+
+.hover-color-change:hover {
+  color: #e30613 !important;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+  color: gray;
+}
+@media only screen and (max-width: 998px) {
+  .content-sec {
+    padding: 10px 40px;
+  }
+}
+
+@media only screen and (max-width: 798px) {
+  .card-main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .end-sec {
+    width: 100%;
+  }
+}
